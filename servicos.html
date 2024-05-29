@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/awesome.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Serviços | SLM Card Fair</title>
+</head>
+
+<body>
+  <!-- inicio do header-->
+  <header style="background-image: url(./assets/img/Gray_Merchant_of_Asphodel.jpg);">
+    <!-- container-->
+    <div class="container">
+      <!-- inicio do menu-->
+      <nav>
+        <a href="index.html"><img src="./assets/img/logo2.png" alt="logo"></a>
+        <ul class="ul">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="serviços.html">Serviços</a>
+          <a class="btn " href="contato.html">Contato</a>
+          <div class="close-icon" onclick="closeMenu()">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </div>
+        </ul>
+        <div class="menu-icon" onclick="openMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <!-- fim do menu-->
+      <section class="banner">
+        <div class="banner-text">
+          <h1>Serviços</h1>
+          <p>"Arrancarei a pele de tua carna e a carne de teus ossos, que rasparei até ficarem secos. Mesmo assim nao
+            terás sofrido o suficiente."</p>
+          <p>"Toda a memória da sua existência será varrida da realidade.
+            Tu morrerás e ninguém se entristecerá"</p>
+        </div>
+      </section>
+    </div>
+    <!-- fim do container-->
+  </header>
+  <!-- fim do header-->
+  <section class="listing">
+    <div class="container">
+      <h3>Nossos serviços</h3>
+      <p>Façam suas compras, vendas e trocas aqui!</p>
+      <ul id="cardList">
+        <!-- Aqui você pode gerar listas de cartas dinamicamente usando JavaScript -->
+      </ul>
+      <!-- row card 1-->
+      <div class="rows-cards actions">
+        <div class="row-card-item">
+          <i class="fa-solid fa-store fa-flip"></i>
+          <p class="buy"><strong>Compre suas cartas aqui</strong></p>
+          <p class="descrição">Aqui você pode comprar as cartas disponies dos usuários!</p>
+          <button id="buyButton" class="btn3 animate-btn3">Buy</button>
+        </div>
+        <!-- end row card 1-->
+        <!-- row card 2-->
+        <div class="row-card-item">
+          <i class="fa-solid fa-check-double fa-bounce"></i>
+          <p class="sell"><strong>Venda suas cartas aqui</strong></p>
+          <p class="descrição">Aqui você pode vender as cartas disponies dos usuários!</p>
+          <button id="sellButton" class="btn3 animate-btn3">Sell</button>
+        </div>
+        <!-- end row card 2-->
+        <!-- row card 3-->
+        <div class="row-card-item">
+          <i class="fa-solid fa-right-left fa-flip"></i>
+          <p class="trade"><strong>Troque suas cartas aqui</strong></p>
+          <p class="descrição">Aqui você pode trocar as cartas disponies dos usuários!</p>
+          <button id="tradeButton" class="btn3 animate-btn3">Trade</button>
+        </div>
+      </div>
+    </div>
+    <!-- end row card 3-->
+    </div>
+  </section>
+  <section class="user-listings">
+    <div class="container">
+      <h2>Your Listings</h2>
+      <ul id="userCardList">
+        <!-- Aqui você pode exibir as listagens de cartas do próprio usuário -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p>Desenvolvido por Glaucion Sousa</p>
+    </div>
+  </footer>
+  <!-- fim do footer-->
+  <script type="text/javascript" src="./assets/js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+  <script src="https://kit.fontawesome.com/a8ee53969a.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
